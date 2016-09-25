@@ -1,7 +1,7 @@
 #Automated Build And Deploy
 
 ###
-CI with CircleCi, CD with Docker Deploy on AWS
+CI with CircleCi, CD with Docker & Deploy on AWS
 ###
 
 ```
