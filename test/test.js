@@ -11,3 +11,19 @@ describe('GET /', function(){
             .expect(200, done);
     });
 });
+
+describe('GET /users', function(){
+    it('expects HTTP response 200', function(done){
+        request(app)
+            .get('/users')
+            .expect(200, done);
+    });
+});
+
+describe('GET page Not found page', function(){
+    it('expects HTTP response 200', function(done){
+        request(app)
+            .get('/undefined')
+            .expect(200, done);
+    });
+});
